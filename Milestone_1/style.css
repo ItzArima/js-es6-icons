@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dddddd;
+}
+
+.icon-container{
+    width: calc(20% - 6rem);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0  3rem;
+    background-color: white;
+}
