@@ -109,20 +109,15 @@ function creaElementi(icons,index){
 }
 
 var icon = document.getElementsByClassName("icon");
+
 for(let i=0;i<icons.length;i++){
 	if(icons[i].type == "animal"){
 		icon[i].classList.add("animal");
 	}
-}
-
-for(let i=0;i<icons.length;i++){
-	if(icons[i].type == "vegetable"){
+	else if(icons[i].type == "vegetable"){
 		icon[i].classList.add("vegetable");
 	}
-}
-
-for(let i=0;i<icons.length;i++){
-	if(icons[i].type == "user"){
+	else if(icons[i].type == "user"){
 		icon[i].classList.add("user");
 	}
 }
