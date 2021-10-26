@@ -16,7 +16,8 @@
         <div class="select-container">
         <form id = "filtro">    
             <label for="filter">FILTRA PER TIPO</label>
-            <select id="filter" name="tipo">
+            <select id="filter" onchange="filtra()">
+                <option value="all">All</option>
                 <option value="animal">Animal</option>
                 <option value="vegetable">Vegetable</option>
                 <option value="user">User</option>
@@ -28,6 +29,7 @@
         <div class="main-container">
 
         </div>
+        <div id = "prova"></div>
     </main>
     <script src="main.js"></script>
 </body>
